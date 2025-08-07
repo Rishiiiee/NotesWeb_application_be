@@ -8,7 +8,7 @@ require("dotenv").config();
 
 const app = express();
 
-// CORS setup
+
 app.use(cors({
   origin: process.env.CLIENT_URL,
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
